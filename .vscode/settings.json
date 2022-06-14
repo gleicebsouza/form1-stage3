@@ -30,5 +30,6 @@
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
-  "cSpell.ignoreWords": ["Seus"]
+  "cSpell.ignoreWords": ["Seus"],
+  "git.ignoreLimitWarning": true
 }
