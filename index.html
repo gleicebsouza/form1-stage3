@@ -26,7 +26,7 @@
           <div class="fieldset-wrapper">
             <legend>Informações pessoais</legend>
 
-            <div class="input-wrapper-name">
+            <div class="col-2">
               <div class="input-wrapper">
                 <label for="nome">Nome</label>
                 <input type="text" id="name" />
@@ -38,18 +38,20 @@
               </div>
             </div>
 
-            <div class="input-wrapper">
-              <label for="email"
-                >E-mail<span>(digite um email válido)</span></label
-              >
-              <input type="email" id="email" />
-            </div>
+            <div class="col-3">
+              <div class="input-wrapper">
+                <label for="email"
+                  >E-mail<span>(digite um email válido)</span></label
+                >
+                <input type="email" id="email" />
+              </div>
 
-            <div class="input-wrapper">
-              <label for="password"
-                >Senha<span>(mínimo de 6 caracteres)</span></label
-              >
-              <input type="password" id="password" />
+              <div class="input-wrapper">
+                <label for="password"
+                  >Senha<span>(mínimo de 6 caracteres)</span></label
+                >
+                <input type="password" id="password" />
+              </div>
             </div>
           </div>
         </fieldset>
@@ -58,52 +60,56 @@
           <div class="fieldset-wrapper">
             <legend>Informações do mentor</legend>
 
-            <div class="input-wrapper">
-              <label for="text"
-                >Nome do seu mentor<span>(só o primeiro nome)</span></label
-              >
-              <input type="text" id="name-mentor" />
+            <div class="col-3">
+              <div class="input-wrapper">
+                <label for="text"
+                  >Nome do seu mentor<span>(só o primeiro nome)</span></label
+                >
+                <input type="text" id="name-mentor" />
+              </div>
             </div>
           </div>
         </fieldset>
 
         <fieldset>
-          <div class="fieldset-wrapper-mentorship">
+          <div class="fieldset-wrapper">
             <legend>Seus horários disponíveis</legend>
 
-            <div class="input-wrapper">
-              <legend id="mentorship">Primeira mentoria</legend>
+            <div class="col-4">
+              <div class="input-wrapper">
+                <h1>Primeira mentoria</h1>
 
+                <div class="input-wrapper">
+                  <label for="date">Data<span>(DD/MM/AAAA)</span></label>
+                  <input type="date" id="date" />
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="datetime">Das </label>
+                  <input type="datetime" id="date-begin" />
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="datetime">Até </label>
+                  <input type="datetime" id="date-end" />
+                </div>
+              </div>
+
+              <h1>Segunda mentoria</h1>
               <div class="input-wrapper">
                 <label for="date">Data<span>(DD/MM/AAAA)</span></label>
-                <input type="date" id="date" />
+                <input type="date" id="date-2" />
               </div>
 
               <div class="input-wrapper">
                 <label for="datetime">Das </label>
-                <input type="datetime" id="date-begin" />
+                <input type="datetime" id="date-begin-2" />
               </div>
 
               <div class="input-wrapper">
                 <label for="datetime">Até </label>
-                <input type="datetime" id="date-end" />
+                <input type="datetime" id="date-end-2" />
               </div>
-            </div>
-
-            <legend id="mentorship-2">Segunda mentoria</legend>
-            <div class="input-wrapper">
-              <label for="date">Data<span>(DD/MM/AAAA)</span></label>
-              <input type="date" id="date-2" />
-            </div>
-
-            <div class="input-wrapper">
-              <label for="datetime">Das </label>
-              <input type="datetime" id="date-begin-2" />
-            </div>
-
-            <div class="input-wrapper">
-              <label for="datetime">Até </label>
-              <input type="datetime" id="date-end-2" />
             </div>
           </div>
         </fieldset>

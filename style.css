@@ -72,6 +72,11 @@ fieldset {
   border: none;
   padding-bottom: 3.2rem;
 }
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6.2px;
+}
 fieldset legend {
   font-family: 'Staatliches', sans-serif;
 
@@ -119,17 +124,36 @@ fieldset span:hover {
   color: rgb(84, 82, 90);
 }
 
-.input-wrapper-name {
-  /*
+.col-2 {
   display: flex;
-  align-content: space-between;
+  gap: 2.2rem;
+}
 
-  width: 30.0rem;
-  height: 5.6rem;
-
- */
+.col-2 input {
+  width: 30rem;
 }
 .input-wrapper input {
+  background: #fafafc;
+
+  max-width: 62.2rem;
+  height: 5.6rem;
+
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+
+  padding-right: 5rem;
+}
+
+.fieldset-wrapper-mentorship h1 {
+  font-family: 'Staatliches';
+
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.4rem;
+  color: #535971;
+}
+
+.input-wrapper-mentorship input {
   background: #fafafc;
 
   width: 62.2rem;
@@ -140,12 +164,17 @@ fieldset span:hover {
 
   padding-right: 5rem;
 }
+.input-wrapper-mentorship label span {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
 
-.input-wrapper-mentorship {
-  color: red;
+  color: var(--fs-span);
+
+  margin-left: 1rem;
 }
-footer {
-  color: #000000;
+.input-wrapper-mentorship label span:hover {
+  color: rgb(84, 82, 90);
 }
 
 /* button{
