@@ -177,9 +177,11 @@ fieldset span:hover {
   color: rgb(84, 82, 90);
 }
 
-/* button{
-background-color: var(--fs-button);
-color:var(--fs-button-color);
+button {
+  background-color: var(--fs-button);
+  color: var(--fs-button-color);
+}
+/* 
 
 font-family: 'Staatliches',sans-serif;
 font-weight: 400;
