@@ -31,5 +31,6 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   "cSpell.ignoreWords": ["Seus"],
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "liveServer.settings.port": 5501
 }
